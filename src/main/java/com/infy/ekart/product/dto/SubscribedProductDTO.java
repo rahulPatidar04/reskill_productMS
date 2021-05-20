@@ -1,0 +1,37 @@
+package com.infy.ekart.product.dto;
+
+
+public class SubscribedProductDTO {
+
+	
+	private Integer buyerId;
+	
+	private Integer prodId;
+	
+	private Integer quantity;
+
+	public Integer getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
+
+	public Integer getBuyerId() {
+		return buyerId;
+	}
+
+	public void setBuyerId(Integer buyerId) {
+		this.buyerId = buyerId;
+	}
+
+	public Integer getProdId() {
+		return prodId;
+	}
+
+	public void setProdId(Integer prodId) {
+		this.prodId = prodId;
+	}		
+	
+}
